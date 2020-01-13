@@ -53,9 +53,6 @@ while True:
         # apply a opening kernel 
         frame_opening = cv2.morphologyEx(frame_threshold, cv2.MORPH_OPEN, kernel)
         
-        # apply a dilate kernel 
-        dilation = cv2.dilate(frame_opening, kernel)
-        
         # draw a line on left lane
         cv2.line(frame_orig, (70,555), (540,555), (0,60,255), 5)
         
