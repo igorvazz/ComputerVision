@@ -1,2 +1,2 @@
 # ComputerVision
-Some computer vision projects
+Computer vision exercises
